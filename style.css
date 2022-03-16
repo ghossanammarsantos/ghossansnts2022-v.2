@@ -449,7 +449,7 @@ background-color:transparent;
 	float: left;
 	width: 100%;
 	padding:80px 0px; 
-	background-color:#353535;
+	background-color:#292929;
 }
 
 .achievment .achievment-content{
@@ -458,21 +458,22 @@ background-color:transparent;
 }
 
 .achievment .achievment-content .card{
-	width: 25%;
 	float:left;
+	width: 25%;
 	padding:15px;
 }
 
 .achievment .achievment-content .card .box{
-	background-color:#292929;
+	background-color:#353535;
+	padding:15px;
 	position: relative;
 }
 .achievment .achievment-content .card .box::before{
-content:'';
+	content:'';
 	position: absolute;
 	left:0;
-	bottom:0px;
-	height:3px;
+	top:0px;
+	height: 3px;
 	width:0;
 	background-color: #f3971b;
 	z-index:1;
@@ -503,7 +504,7 @@ content:'';
 }
 
 
-/*Service Section*/
+/*Experience Section*/
 
 .experience{
 	float: left;
@@ -611,12 +612,6 @@ content:'';
 
 }
 
-.contact .contact-content textarea:focus{
- border-color:#f3971b;
-}
-.contact .contact-content textarea{
-	height: 100px;
-}
 .contact .contact-content button{
 	display: block;
 	margin:auto;
@@ -738,7 +733,7 @@ transform-origin: left bottom;
 }
 /*Responsive*/
 
-@media(max-width: 991px){
+@media (min-width: 768px) and (max-width: 1024px){
 	.trigger-main{
 		display: block;
 	}
@@ -780,7 +775,7 @@ transform-origin: left bottom;
     }
 }
 
-@media(max-width: 767px){
+@media (min-width: 320px) and (max-width: 767px){
 
 .home .home-text h3{
 	font-size:40px;
