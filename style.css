@@ -577,6 +577,10 @@ background-color:transparent;
 
 }
 
+.experience .experience-content .card .box img{
+	width: 100%;
+}
+
 .experience .experience-content .card .box ul{
 	color:#ffffff;
 	font-size: 16px;
